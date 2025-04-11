@@ -1,7 +1,7 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthenticationController;
+use Illuminate\Support\Facades\Route;
 use Lomkit\Rest\Facades\Rest;
 
 Route::post('/register', [AuthenticationController::class, 'register']);
